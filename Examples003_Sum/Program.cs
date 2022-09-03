@@ -1,3 +1,5 @@
-﻿int numberA = 4;
-int numberB = 8;
-Console.Write(numberA + numberB);
+﻿int numberA = new Random().Next(1, 25);
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1, 25);
+Console.WriteLine(numberB);
+Console.WriteLine(numberA + numberB);
